@@ -5,7 +5,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Print greeting
-        run: |    #visto che here stai usando shell commands, con | permetti testo multilinea!s
+        run: |    #visto che here stai usando shell commands, con | permetti testo multilinea per i commands!
           echo "hello world"
           echo "second rendered text"
       - name: Print goodbye
